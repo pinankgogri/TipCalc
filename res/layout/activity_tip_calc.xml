@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TipCalc" >
+
+    <EditText
+        android:id="@+id/editTextNewAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:ems="10"
+        android:hint="@string/edittext_amount_hint" />
+
+    <Button
+        android:id="@+id/btn15Percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn10Percent"
+        android:layout_alignBottom="@+id/btn10Percent"
+        android:layout_centerHorizontal="true"
+        android:text="@string/percent_15_btn" />
+
+    <Button
+        android:id="@+id/btn10Percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextNewAmount"
+        android:layout_marginTop="21dp"
+        android:layout_toLeftOf="@+id/btn15Percent"
+        android:text="@string/percent_10" />
+
+    <Button
+        android:id="@+id/btn20Percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn15Percent"
+        android:layout_alignBottom="@+id/btn15Percent"
+        android:layout_toRightOf="@+id/btn15Percent"
+        android:text="@string/percent_20_btn" />
+
+    <TextView
+        android:id="@+id/tvTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn15Percent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text="@string/text_view_label"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
