@@ -8,6 +8,6 @@
     <string name="percent_10">10%</string>
     <string name="percent_15_btn">15%</string>
     <string name="percent_20_btn">20%</string>
-    <string name="text_view_label">Tip is:</string>
+    <string name="text_view_label">TIP IS:</string>
 
 </resources>
